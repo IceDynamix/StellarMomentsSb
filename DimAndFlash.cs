@@ -57,10 +57,7 @@ namespace StorybrewScripts
 
                 if (next.Value == MapState.Active)
                 {
-                    if (Flashes.Contains(next.Time))
-                        duration = 10;
-                    else
-                        duration = 500;
+                    duration = 750;
                 }
                 else if (next.Value == MapState.Pause)
                 {
