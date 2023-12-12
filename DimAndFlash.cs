@@ -85,7 +85,7 @@ namespace StorybrewScripts
             switch (state)
             {
                 case MapState.Active: return 0;
-                case MapState.Dimmed: return 0.75;
+                case MapState.Dimmed: return 0.25;
                 default: return 1;
             }
         }
