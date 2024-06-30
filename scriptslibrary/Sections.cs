@@ -121,13 +121,13 @@ namespace StorybrewScripts.scriptslibrary
             },
             new CharacterSection()
             {
-                TrackTime = new TimeRange(702525, 786329),
+                TrackTime = new TimeRange(702525, 786664),
                 Background = "childe2",
                 MusicBoxLabel = "track10",
                 DimTimes = new List<TimeRange>()
                 {
                     new TimeRange(702525, 737364),
-                    new TimeRange(767328, 786329)
+                    new TimeRange(767328, 786664)
                 },
                 Flashes = new List<CommandDecimal>() {753580},
                 Element = "hydro"
